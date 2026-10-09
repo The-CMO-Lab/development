@@ -1,0 +1,12 @@
+{
+  "name": "development",
+  "owner": { "name": "The CMO Lab" },
+  "metadata": { "description": "Claude Code mods for development workflows" },
+  "plugins": [
+    {
+      "name": "backlog-board",
+      "source": "./plugins/backlog-board",
+      "description": "Sidebar pane showing virtual-team backlog progress (backlog.md, features/, handoffs/)"
+    }
+  ]
+}

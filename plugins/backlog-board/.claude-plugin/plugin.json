@@ -1,0 +1,23 @@
+{
+  "name": "backlog-board",
+  "version": "0.1.0",
+  "description": "Sidebar pane showing virtual-team backlog progress (backlog.md, features/, handoffs/)",
+  "author": {
+    "name": "Luis Capobianco"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "docsDir": {
+      "type": "string",
+      "title": "Docs folder",
+      "description": "Folder holding backlog.md. Empty: ./docs, then the working directory.",
+      "default": ""
+    },
+    "pollSeconds": {
+      "type": "number",
+      "title": "Refresh interval (seconds)",
+      "description": "How often to check the docs folder for changes.",
+      "default": 10
+    }
+  }
+}
