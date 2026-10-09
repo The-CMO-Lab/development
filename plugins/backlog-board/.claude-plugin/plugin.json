@@ -1,6 +1,6 @@
 {
   "name": "backlog-board",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Sidebar pane showing virtual-team backlog progress (backlog.md, features/, handoffs/)",
   "author": {
     "name": "Luis Capobianco"
